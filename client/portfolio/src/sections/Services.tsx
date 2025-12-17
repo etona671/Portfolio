@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <section id="services" className="py-20">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-center">
           My <span className="text-orange-500">Services</span>
         </h2>

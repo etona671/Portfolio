@@ -7,13 +7,13 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 bg-[#0e1322]">
-      <div className="max-w-6xl mx-auto px-6">
+    <section id="skills" className="py-20 bg-[#fff] text-[#0b0f1a]">
+      <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-center">
           Mes <span className="text-orange-500">Competences</span>
         </h2>
 
-        <div className="mt-12 grid md:grid-cols-4 gap-6">
+        <div className="mt-12 grid md:grid-cols-4 gap-6 text-white">
           {skills.map((skill, i) => (
             <div
               key={i}

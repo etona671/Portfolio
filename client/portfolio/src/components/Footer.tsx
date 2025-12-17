@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-[#0b0f1a] border-t border-white/10 text-gray-400">
-      <div className="max-w-7xl mx-auto px-6 py-16 grid gap-10 md:grid-cols-4">
+      <div className="max-w-full mx-auto px-6 py-16 grid gap-10 md:grid-cols-4">
 
         {/* Brand */}
         <div>
@@ -49,7 +49,7 @@ const Footer = () => {
               <Mail size={16} /> etonabarkatchere671@gmail.com
             </li>
             <li className="flex items-center gap-2">
-              <Phone size={16} /> +241 74 42 49 11
+              <Phone size={16} /> +241 74 42 49 11 / +241 65 76 54 95
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={16} /> Libreville, Gabon
